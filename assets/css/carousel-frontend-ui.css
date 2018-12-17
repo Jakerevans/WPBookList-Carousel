@@ -1,0 +1,119 @@
+.wpbooklist_carousel_entry_div{
+	display: inline-block!important;
+    padding: 10px!important;
+    position: relative!important;
+    vertical-align: top!important;
+}
+
+#wpbooklist_carousel_main_display_div{
+	display: inline-block;
+    margin-bottom: 10px;
+    text-align: center;
+    white-space: nowrap;
+    overflow:hidden;
+    opacity:0;
+    vertical-align:middle;
+}
+
+.wpbooklist_carousel_inner_main_display_div{
+    height: 100%;
+    text-align: center;
+}
+
+#wpbooklist_carousel_cover_image{
+    padding: 0;
+    height: 170px;
+    width: 103px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 1;
+    border: none;
+    background-color: transparent;
+    cursor:pointer;
+}
+
+#wpbooklist_carousel_saved_title_link {
+    z-index: 999;
+    display: none;
+    left: 0;
+    right: 0;
+    font-size: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    position: absolute;
+    text-align: center;
+    max-width: 400px;
+    height: 45px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    line-height: 1.4;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    box-orient: vertical;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#wpbooklist-carousel-library-frontend-purchase-div{
+
+}
+
+.wpbooklist_carousel_inner_main_display_div .wpbooklist_cover_image_class{
+    pointer-events: none;
+}
+
+.wpbooklist-carousel-nav-arrow{
+    width: 35px;
+    position: relative;
+    height: 15%;
+    top: 40%;
+    opacity:0;
+    pointer-events:none;
+}
+
+.wpbooklist-carousel-nav-arrow:hover{
+    cursor:pointer;
+}
+
+.wpbooklist-carousel-nav-div{
+
+}
+
+#wpbooklist-carousel-flex-container{
+    display:flex;
+}
+
+#wpbooklist-carousel-nav-div-right{
+    margin-right:auto;
+}
+
+#wpbooklist-carousel-nav-div-left{
+    margin-left:auto;
+}
+
+.wpbooklist-carousel-title-span-class{
+    white-space: pre-wrap;
+    position: absolute;
+    top: 20px;
+    padding: 5px;
+    color: black;
+    overflow: hidden;
+    -webkit-line-clamp: 20;
+    line-clamp: 2;
+    box-orient: vertical;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    border: solid 1px black;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-style: italic;
+    border-color: #000!important;
+    border-radius: 2px;
+}
